@@ -26,7 +26,7 @@ You can set override the default grid settings in the `config.json` file:
 ```json
 {
   "token": "<YOUR_BOT_TOKEN>",
-  "defaultGridSize": [<WIDTH>, <HEIGHT>],
-  "defaultMines": <NUMBEROFMINES>
+  "defaultGridSize": [10, 10],
+  "defaultMines": 10
 }
 ```
