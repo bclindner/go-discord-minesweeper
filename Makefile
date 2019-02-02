@@ -8,4 +8,4 @@ default:
 	GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" -o bin/$(PACKAGENAME)_$(VERSION)_windows_x64.exe
 	GOOS=windows GOARCH=386 go build -ldflags="-s -w" -o bin/$(PACKAGENAME)_$(VERSION)_windows_x86.exe
 clean:
-	rm -r bin/valerius_*_*_*
+	rm -r bin/$(PACKAGENAME)_*_*_*
